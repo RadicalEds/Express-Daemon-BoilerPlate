@@ -1,0 +1,29 @@
+{
+  "name": "express-daemon-boilerplate",
+  "version": "1.0.0",
+  "description": "Express/Mongo Daemon BoilerPlate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "boilerplate": "./src/bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadicalEds/Express-Daemon-BoilerPlate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadicalEds/Express-Daemon-BoilerPlate/issues"
+  },
+  "homepage": "https://github.com/RadicalEds/Express-Daemon-BoilerPlate#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0",
+    "yargs": "^18.0.0"
+  }
+}
